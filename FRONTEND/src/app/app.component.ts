@@ -8,6 +8,7 @@ import { RecapitulatifComponent } from './recapitulatif/recapitulatif.component'
 import { CatalogueComponent } from './catalogue/catalogue.component'; 
 import { HttpClient } from '@angular/common/http';
 import { MoteurDeRechercheComponent } from './moteur-de-recherche/moteur-de-recherche.component';
+import { GestionCartesModule } from './gestion-cartes/gestion-cartes.module';
 
 
 @Component({
@@ -20,6 +21,7 @@ import { MoteurDeRechercheComponent } from './moteur-de-recherche/moteur-de-rech
     FooterComponent, 
     RecapitulatifComponent, 
     CatalogueComponent, 
+    GestionCartesModule,
     MoteurDeRechercheComponent,
     RouterOutlet, 
     NgIf
